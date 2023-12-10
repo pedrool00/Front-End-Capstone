@@ -1,0 +1,49 @@
+.nav-bar {
+    grid-template-columns: auto auto auto;
+    min-height: 6.25rem;
+  }
+  
+  .nav-bar-logo {
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+    line-height: 0;
+  }
+  
+  .nav-bar-logo img {
+    max-width: 15.625rem;
+  }
+  
+  .nav-bar-hamburger {
+    grid-column: 2;
+    display: none;
+    cursor: pointer;
+    color: #495E57;
+    transition: background-color 0.5s;
+  }
+  
+  .nav-bar-hamburger:hover {
+    background-color: #F4CE14;
+  }
+  
+  .current-location, 
+  .nav-bar-links a:hover, 
+  .nav-bar-links a:focus {
+    background-color: #F4CE14;
+  }
+
+  ---------------------------------
+
+  .nav-bar {
+    grid-template-columns: auto auto;
+  }
+
+  .nav-bar-hamburger {
+    width: 2.5rem;
+    justify-self: end;
+    display: inline-block;
+    background: none;
+    border: none;
+  }
+
+  
