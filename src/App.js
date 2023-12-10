@@ -2,13 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
         <p>
             Cleaning up initial React App.
         </p>
-      </header>
-    </div>
+    </>
   );
 }
 
