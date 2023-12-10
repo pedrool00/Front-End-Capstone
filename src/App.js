@@ -4,7 +4,7 @@ function App() {
   return (
     <>
         <p>
-            Cleaning up initial React App.
+            Working in the App
         </p>
     </>
   );
