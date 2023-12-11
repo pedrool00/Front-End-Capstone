@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './BookingPage.css';
-import { fetchAPI, submitAPI } from '../../../Utils/fakeAPI';
+import { fetchAPI, submitAPI } from '../../../Utils/testAPI';
 import pages from '../../../Utils/pages';
 import BookingForm from './BookingForm';
 
