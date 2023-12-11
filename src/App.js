@@ -2,13 +2,13 @@ import {
   Route, 
   Routes
 } from 'react-router-dom';
-import pages from './Utils/pages';
-import Layout from './Components/Layout/Main';
-import Home from './Components/Pages/Home';
-import Bookings from './Components/Pages/Bookings';
-import ConfirmedBooking from './Components/Pages/Bookings/ConfirmedBooking';
-import NotFound from './Components/Pages/NotFound';
-import UnderConstruction from './Components/Pages/UnderConstruction';
+import pages from './utils/pages';
+import Layout from './components/layout/Main';
+import Home from './components/pages/Home';
+import Bookings from './components/pages/Bookings';
+import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
+import NotFound from './components/pages/NotFound';
+import WorkInProgress from './components/pages/WorkInProgress';
 
 const App = () => {
   return (
@@ -18,11 +18,11 @@ const App = () => {
           <Route path={pages.get('home').path} element={<Home />} />
           <Route 
             path={pages.get('about').path} 
-            element={<UnderConstruction />} 
+            element={<WorkInProgress />} 
           />
           <Route 
             path={pages.get('menu').path} 
-            element={<UnderConstruction />} 
+            element={<WorkInProgress />} 
           />
           <Route path={pages.get('bookings').path} element={<Bookings />} />
           <Route 
@@ -31,11 +31,11 @@ const App = () => {
           />
           <Route 
             path={pages.get('orderOnline').path} 
-            element={<UnderConstruction />} 
+            element={<WorkInProgress />} 
           />
           <Route 
             path={pages.get('login').path} 
-            element={<UnderConstruction />} 
+            element={<WorkInProgress />} 
           />
           <Route path="*" element={<NotFound />} />
         </Routes>

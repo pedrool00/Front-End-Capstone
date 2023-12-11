@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import bruschettaImage from './Assets/bruschetta.jpg';
-import greekSaladImage from './Assets/greek-salad.jpg';
-import lemonDessertImage from './Assets/lemon-dessert.jpg';
+import bruschettaImage from './assets/bruschetta.jpg';
+import greekSaladImage from './assets/greek_salad.jpg';
+import lemonDessertImage from './assets/lemon_dessert.jpg';
 import './WeekSpecials.css';
-import pages from '../../../Utils/pages';
+import pages from '../../../utils/pages';
 import MealCard from './MealCard';
 
 const meals = [

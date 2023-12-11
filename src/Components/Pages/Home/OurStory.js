@@ -1,5 +1,5 @@
-import chefsMarioAndAdrianAImage from './assets/chefs-mario-and-adrian_a.jpg';
-import chefsMarioAndAdrianBImage from './assets/chefs-mario-and-adrian_b.jpg';
+import chefsMarioAndAdrianAImage from './assets/chefs_A.jpg';
+import chefsMarioAndAdrianBImage from './assets/chefs_B.jpg';
 import './OurStory.css';
 
 const OurStory = () => {
@@ -9,19 +9,16 @@ const OurStory = () => {
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-          culpa qui officia deserunt mollit anim id est laborum. Sed ut 
-          perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-          inventore veritatis et quasi architecto beatae vitae dicta sunt 
-          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-          voluptatem sequi nesciunt.
+        Nestled in the heart of bustling Chicago, 
+        Little Lemon is where modern flair meets cozy nostalgia.
+        Our diverse, artisanal menu, featuring delectable bruschettas,
+        succulent burgers, and refreshing Greek salads, is a testament 
+        to our belief that food is an art. Crafted by expert chefs with
+        locally-sourced ingredients, our dishes not only delight the
+        palate but nourish the soul. Whether you're seeking a romantic dinner,
+        a family meal, or a relaxed atmosphere with friends, Little Lemon
+        is your ideal culinary destination. Find us in the heart of Chicago 
+        for an unforgettable experience.
         </p>
       </div>
       <div className="our-story-chefs">

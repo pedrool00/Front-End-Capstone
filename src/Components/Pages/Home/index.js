@@ -1,4 +1,4 @@
-import Hero from './Hero';
+import HomeTop from './HomeTop';
 import WeekSpecials from './WeekSpecials';
 import Testimonials from './Testimonials';
 import OurStory from './OurStory';
@@ -6,7 +6,7 @@ import OurStory from './OurStory';
 const Home = () => {
   return (
     <>
-      <Hero />
+      <HomeTop />
       <WeekSpecials />
       <Testimonials />
       <OurStory />
