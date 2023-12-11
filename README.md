@@ -22,4 +22,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm test`
 Launches the test runner in the interactive watch mode.
-It runs all the tests for the application and provides feedback on their status.
+This command runs all the tests for the application and provides feedback on their status.
